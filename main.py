@@ -48,7 +48,7 @@ def caesar():
 
        else:
         end_text += char
-    put_html(f'<h1 style ="text-align:center">Your {method}d text is 👇\n{end_text}</h1>')
+    put_html(f'<h1 style ="text-align:center">Your {method}d text is: {end_text}</h1>')
 
 
 
