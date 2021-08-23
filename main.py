@@ -18,6 +18,7 @@ alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'
 
 
 def caesar():
+ pywebio.session.set_env(title='Caesar Cipher')
  img = open('image/caesar.png','rb').read()
  put_image(src=img)
  method = input('DECODE OR ENCODE').lower()
